@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Office\Office.cs" />
-    <Compile Include="Person\Person.cs" />
+    <Compile Include="ControlOffice\Office.cs" />
+    <Compile Include="Persons\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scheduler\Scheduler.cs" />
+    <Compile Include="StartJob\Scheduler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
